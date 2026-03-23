@@ -2963,6 +2963,27 @@ dependencies = [
 ]
 
 [[package]]
+name = "deno_npm_store"
+version = "0.1.0"
+dependencies = [
+ "base64 0.22.1",
+ "deno_cache_dir",
+ "deno_error",
+ "deno_npm",
+ "deno_path_util",
+ "deno_semver",
+ "flate2",
+ "parking_lot",
+ "rusqlite",
+ "serde",
+ "serde_json",
+ "sha2",
+ "sys_traits",
+ "tar",
+ "thiserror 2.0.12",
+]
+
+[[package]]
 name = "deno_ops"
 version = "0.269.0"
 dependencies = [

@@ -1,0 +1,27 @@
+[package]
+name = "deno_npm_store"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Content-addressable store for npm packages, similar to pnpm"
+
+[lib]
+
+[dependencies]
+deno_cache_dir = { workspace = true }
+deno_error = { workspace = true }
+deno_npm = { workspace = true }
+deno_path_util = { workspace = true }
+deno_semver = { workspace = true }
+sys_traits = { workspace = true }
+parking_lot = { workspace = true }
+rusqlite = { workspace = true }
+sha2 = { workspace = true }
+tar = { workspace = true }
+flate2 = { workspace = true }
+base64 = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
